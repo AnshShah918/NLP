@@ -1,5 +1,8 @@
 package com.stackroute.matchmaker.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,10 +17,11 @@ import com.stackroute.matchmaker.nlpprocess.Tokenization;
 public class NlpController {
 	
 	public Tokenization tokenization;
+	List<String> token = new ArrayList<>();
 	
 	@PostMapping("/search")
 	public void breakString(@PathVariable String string)
 	{
-		tokenization.token(string);		
+		token = tokenization.token(string);		
 	}
 }
