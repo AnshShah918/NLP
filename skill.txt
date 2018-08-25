@@ -28,7 +28,6 @@ chart.js
 clojurescript
 compass
 core.js
-
 css modules
 css preprocessor
 css-related
@@ -52,13 +51,11 @@ gulp
 haml
 handlebars.js
 highcharts
-
 html-related
 htmlpad
 immutable.js
 infargistics
 isomorphic apps
-
 javascript frameworks
 jface
 jquery
@@ -115,7 +112,6 @@ winforms
 wedl
 xhtml
 yaml
-
 database
 arangodb
 awr
@@ -479,7 +475,6 @@ apache kafka
 colossus
 finatra
 scalatra
-
 go
 echo
 gin
@@ -515,7 +510,6 @@ rpg
 vbscript
 verilog
 xtend
-
 ios
 ios framework
 coredata
