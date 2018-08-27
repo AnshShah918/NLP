@@ -8,7 +8,7 @@ google
 boeing
 goldman sachs
 dell
-j p morgan
+jpmorgan
 mi 
 oppo
 vivo
@@ -23,7 +23,7 @@ cognizant
 infosys
 capegemini
 mahindra tech
-air bus
+airbus
 voltas
 clip
 blue lagoon

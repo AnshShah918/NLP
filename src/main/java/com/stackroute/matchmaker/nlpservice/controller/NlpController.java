@@ -66,7 +66,7 @@ public class NlpController {
 		search.setSkill(tagging.taggingFunc(tokenString, skill));
 		search.setLocation(tagging.taggingFunc(tokenString, location));
 		search.setOrganisation(tagging.taggingFunc(tokenString, organisation));
-		search.setYears(tagging.taggingFunc(tokenString, extra));
+		search.setYears(tagging.taggingYears(tokenString, extra));
 
 		s.close();
 		return new ResponseEntity<Search>(search, HttpStatus.OK);
